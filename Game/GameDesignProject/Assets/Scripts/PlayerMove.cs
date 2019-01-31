@@ -10,11 +10,15 @@ public class PlayerMove : MonoBehaviour
 
     private void Update()
     {
-        var startmove = Input.GetAxis("Horizontal") * Time.deltaTime * StartSpeed;
-        var move = Input.GetAxis("Horizontal") * Time.deltaTime * MoveSpeed;
+        var startmove = Time.deltaTime * StartSpeed;
         var jump = Input.GetAxis("Jump") * Time.deltaTime * JumpSpeed;
         
-        transform.Translate(move, 0, 0);
+        transform.Translate(startmove, 0, 0);
         transform.Translate(0, jump, 0);
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            transform.Translate(startmove, 0, 0);
+        }
     }
 }
