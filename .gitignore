@@ -63,3 +63,5 @@ sysinfo.txt
 *.unitypackage
 
 *.DS_Store
+
+Game/GameDesignProject/\.idea/\.idea\.GameDesignProject/\.idea/
