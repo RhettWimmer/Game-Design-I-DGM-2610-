@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     public int StartSpeed;
-    public int MoveSpeed;
+/*    public int MoveSpeed;*/
     public int JumpSpeed;
     public bool InAir;
 
@@ -13,11 +13,11 @@ public class PlayerMove : MonoBehaviour
     {
         var startmove = Time.deltaTime * StartSpeed;
         var jump = Input.GetAxis("Jump") * Time.deltaTime * JumpSpeed;
-        var move = Input.GetAxis("Horizontal") * Time.deltaTime * MoveSpeed;
+/*        var move = Input.GetAxis("Horizontal") * Time.deltaTime * MoveSpeed;*/
 
         transform.Translate(startmove, 0, 0);
         transform.Translate(0, jump, 0);
-        transform.Translate(move, 0, 0);
+/*        transform.Translate(move, 0, 0);*/
     }
 
     private void OnCollisionStay(Collision other)
