@@ -25,14 +25,14 @@ public class PlayerMove : MonoBehaviour
         if (other.gameObject.CompareTag("Plat"))
         {
             InAir = false;
-            print("Grounded");
+/*            print("Grounded");*/
         }
     }
 
     private void OnCollisionExit(Collision other)
     {
         InAir = true;
-        print("In Air");
+/*        print("In Air");*/
     }
 }
    

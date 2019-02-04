@@ -54568,10 +54568,14 @@ GameObject:
   - component: {fileID: 2020836377}
   - component: {fileID: 2020836376}
   - component: {fileID: 2020836375}
+  - component: {fileID: 2020836386}
   - component: {fileID: 2020836379}
   - component: {fileID: 2020836380}
   - component: {fileID: 2020836381}
   - component: {fileID: 2020836382}
+  - component: {fileID: 2020836383}
+  - component: {fileID: 2020836384}
+  - component: {fileID: 2020836385}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -54654,7 +54658,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2020836374}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb610783fdc4c5b4599e4dd6f26644d3, type: 3}
   m_Name: 
@@ -54669,13 +54673,13 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2020836374}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 1
+  m_Mass: 1000
+  m_Drag: 0.1
   m_AngularDrag: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!136 &2020836381
 CapsuleCollider:
@@ -54707,6 +54711,74 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2020836383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2020836374}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30060cca0a00c349aa4b4834d494e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  acceleration: 10
+--- !u!114 &2020836384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2020836374}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1068d6fe85d979e488f9ecca7bac2798, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  jumpSpeed: 10
+  gravity: 10
+  MoveX: 10
+  MoveY: 10
+  MoveZ: 10
+  controller: {fileID: 0}
+--- !u!114 &2020836385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2020836374}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2af9f168f833b241a92cae2c4dfb6e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpSpeed: 10
+  gravity: 10
+  MoveX: 10
+  MoveY: 10
+  MoveZ: 10
+  Rotx: 0
+  Roty: 0
+  Rotz: 0
+  moveDirection: {x: 0, y: 0, z: 0}
+  rotDirection: {x: 0, y: 0, z: 0}
+  controller: {fileID: 0}
+--- !u!114 &2020836386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2020836374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee2fd241c92e984a831c21b9cd5db07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 15
+  SpeedUp: 0.05
+  JumpSpeed: 10
+  Gravity: 1
 --- !u!1 &2051886668
 GameObject:
   m_ObjectHideFlags: 0
