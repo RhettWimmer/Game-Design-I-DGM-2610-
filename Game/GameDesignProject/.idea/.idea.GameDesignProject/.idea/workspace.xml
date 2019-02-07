@@ -32,12 +32,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2253" />
+          <entry key="cs" value="2386" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2253" />
+          <entry key="C#" value="2386" />
         </counts>
       </usages-collector>
     </session>
@@ -62,11 +62,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoulderDESTROY.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="288">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <marker date="1549499880603" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549499880603" expanded="true" signature="124:148" ph="{...}" />
+                <marker date="1549500116162" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549500116162" expanded="true" signature="123:368" ph="{...}" />
+                <marker date="1549500116162" expanded="true" signature="182:236" ph="{...}" />
+                <marker date="1549500116162" expanded="true" signature="270:366" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -176,12 +178,12 @@
       <workItem from="1548895761083" duration="6969000" />
       <workItem from="1549236306501" duration="9450000" />
       <workItem from="1549256043144" duration="919000" />
-      <workItem from="1549498638847" duration="1241000" />
+      <workItem from="1549498638847" duration="2076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18579000" />
+    <option name="totallyTimeSpent" value="19414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,11 +351,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoulderDESTROY.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="288">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <marker date="1549499880603" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549499880603" expanded="true" signature="124:148" ph="{...}" />
+            <marker date="1549500116162" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549500116162" expanded="true" signature="123:368" ph="{...}" />
+            <marker date="1549500116162" expanded="true" signature="182:236" ph="{...}" />
+            <marker date="1549500116162" expanded="true" signature="270:366" ph="{...}" />
           </folding>
         </state>
       </provider>
