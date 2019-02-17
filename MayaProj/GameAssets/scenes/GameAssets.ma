@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: GameAssets.ma
-//Last modified: Sat, Feb 16, 2019 07:52:38 PM
+//Last modified: Sat, Feb 16, 2019 07:59:19 PM
 //Codeset: 1252
 requires maya "2019";
 currentUnit -l centimeter -a degree -t film;
@@ -13,17 +13,17 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "9EAAAE36-41F8-9309-DBCA-AE86461EEB47";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 59.345823898339454 10.684560372068505 2.6948780946647188 ;
-	setAttr ".r" -type "double3" -8.7383526775133227 -6392.6000000006925 1.7528357432908063e-14 ;
+	setAttr ".t" -type "double3" 28.736482047320802 3.2640788429711129 -0.59820307503047587 ;
+	setAttr ".r" -type "double3" 4.461647314646271 -6748.5999999988935 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "6E6AC1B4-4150-A845-ABB5-D6AF823C632F";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 60.104649101927755;
+	setAttr ".coi" 28.832435708258171;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 0 1.5533139320507652 0 ;
+	setAttr ".tp" -type "double3" 0 5.5070047918124141 0.10410141944885254 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "88B65CF7-43EA-4BAF-DE8B-2A95EEF6C67F";
@@ -6167,7 +6167,7 @@ createNode mesh -n "BoulderMesh" -p "pCube1";
 createNode transform -n "pCylinder4";
 	rename -uid "43381A96-4102-ADE3-EE11-FA8D23E5CC46";
 	setAttr ".t" -type "double3" 0 8.03390651035863 0 ;
-	setAttr ".s" -type "double3" 1 3.0198576030843682 1 ;
+	setAttr ".s" -type "double3" 0.69032190402686033 2.0846738504511944 0.69032190402686033 ;
 createNode mesh -n "pCylinderShape1" -p "pCylinder4";
 	rename -uid "D1CDE13B-4E39-8830-D757-788C5E383874";
 	setAttr -k off ".v";
@@ -8240,6 +8240,7 @@ createNode script -n "sceneConfigurationScriptNode";
 	setAttr ".st" 6;
 createNode displayLayer -n "Cactus_Mat";
 	rename -uid "5391E068-4DE1-B9E5-DF2B-678B8C494BBE";
+	setAttr ".v" no;
 	setAttr ".do" 1;
 createNode lambert -n "lambert2";
 	rename -uid "6056BB37-49CE-6DF7-8BF0-BBA98D60AAF3";
@@ -8275,7 +8276,6 @@ createNode materialInfo -n "materialInfo3";
 	rename -uid "8B6F7570-4DE5-B123-32B8-8FBB943DA748";
 createNode displayLayer -n "TNT";
 	rename -uid "C146A63C-4D62-E262-A4A1-4EA27033678B";
-	setAttr ".v" no;
 	setAttr ".do" 4;
 createNode lambert -n "lambert4";
 	rename -uid "B79341BE-487B-1B24-AEB5-32BBE3B483F4";
