@@ -42329,7 +42329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Boulder: {fileID: 1099918199236920, guid: 318c7e456bc3fe34bb4b015990b4918c, type: 2}
-  SpawnTime: 1
+  SpawnTime: 0.5
 --- !u!4 &668722186
 Transform:
   m_ObjectHideFlags: 0
@@ -132013,9 +132013,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee2fd241c92e984a831c21b9cd5db07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 15
+  Speed: 8
   SpeedUp: 0.01
-  JumpSpeed: 15
+  JumpSpeed: 10
   InAir: 0
 --- !u!43 &2023937100
 Mesh:
