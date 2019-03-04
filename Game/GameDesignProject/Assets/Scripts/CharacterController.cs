@@ -4,32 +4,19 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
-    public float speed;
-    public float jumpSpeed;
-    public float gravity;
-    public float MoveX, MoveY, MoveZ;
+    public float MoveSpeed;
     
-    private Vector3 moveDirection;
-    public CharacterController controller;
-
-    public void Start()
+    private CharacterController controller;
+    private Vector3 pos;
+    
+    private void Start()
     {
         controller = GetComponent<CharacterController>();
     }
-	
-    void Update() {
-		               
-                moveDirection.Set(MoveX, MoveY, MoveZ);      
-                moveDirection.Set(Input.GetAxis("Horizontal"), 0, Input.GetAxis(("Vertical")));
-                moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
-                moveDirection = transform.TransformDirection(moveDirection);
-                moveDirection *= speed;
-                if (Input.GetButton("Jump"))
-                    moveDirection.y = jumpSpeed;
-                
-           
-            moveDirection.y -= gravity * Time.deltaTime;
-
+    private void Update()
+    {
+        pos.x = Input.GetAxis("Horizontal") * MoveSpeed * Time.deltaTime;
+        controller.Move(pos);
     }
 }

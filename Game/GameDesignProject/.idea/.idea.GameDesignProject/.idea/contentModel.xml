@@ -220,6 +220,7 @@
             </e>
           </e>
         </e>
+        <e p="MoveCharacter.cs" t="Include" />
         <e p="ProCore" t="Include">
           <e p="ProBuilder" t="Include">
             <e p="About" t="Include">
@@ -380,6 +381,7 @@
           <e p="BoulderDESTROY.cs" t="Include" />
           <e p="CharacterController.cs" t="Include" />
           <e p="Counter.cs" t="Include" />
+          <e p="MovePattern.cs" t="Include" />
           <e p="PlayerMove.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
