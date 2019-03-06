@@ -12254,6 +12254,7 @@ GameObject:
   - component: {fileID: 195020992}
   - component: {fileID: 195020991}
   - component: {fileID: 195020993}
+  - component: {fileID: 195020994}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -12299,11 +12300,25 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 195020990}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1068d6fe85d979e488f9ecca7bac2798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MoveSpeed: 5
+  Gravity: -9.81
+--- !u!114 &195020994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 195020990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c295c67480bbfd478a34c245eef74e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 10
 --- !u!1 &197732661
 GameObject:
   m_ObjectHideFlags: 0
@@ -119937,6 +119952,7 @@ GameObject:
   - component: {fileID: 2020836377}
   - component: {fileID: 2020836376}
   - component: {fileID: 2020836375}
+  - component: {fileID: 2020836379}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
@@ -120011,6 +120027,21 @@ Transform:
   m_Father: {fileID: 195020992}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &2020836379
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2020836374}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 120
+  m_CollisionDetection: 0
 --- !u!43 &2023937100
 Mesh:
   m_ObjectHideFlags: 0

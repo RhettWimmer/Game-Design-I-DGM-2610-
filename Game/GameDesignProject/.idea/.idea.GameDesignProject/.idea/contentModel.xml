@@ -376,12 +376,14 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AutoRunCharacterController.cs" t="Include" />
           <e p="Bobbing.cs" t="Include" />
           <e p="BoulderAI.cs" t="Include" />
           <e p="BoulderDESTROY.cs" t="Include" />
-          <e p="CharacterController.cs" t="Include" />
           <e p="Counter.cs" t="Include" />
+          <e p="Gravity.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
+          <e p="PlayerCharacterController.cs" t="Include" />
           <e p="PlayerMove.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
