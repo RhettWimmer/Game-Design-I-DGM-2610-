@@ -12,7 +12,7 @@
     <session id="1849622463">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
@@ -34,12 +34,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3645" />
+          <entry key="cs" value="3648" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3645" />
+          <entry key="C#" value="3648" />
         </counts>
       </usages-collector>
     </session>
@@ -49,14 +49,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AutoRunCharacterController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="396">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding>
-                <marker date="1551850115765" expanded="false" signature="6:78" ph="..." />
-                <marker date="1551850115765" expanded="true" signature="135:719" ph="{...}" />
-                <marker date="1551850115765" expanded="true" signature="349:423" ph="{...}" />
-                <marker date="1551850115765" expanded="true" signature="450:717" ph="{...}" />
-                <marker date="1551850115765" expanded="true" signature="493:573" ph="{...}" />
+                <marker date="1551850402934" expanded="false" signature="6:78" ph="..." />
+                <marker date="1551850402934" expanded="true" signature="135:717" ph="{...}" />
+                <marker date="1551850402934" expanded="true" signature="347:421" ph="{...}" />
+                <marker date="1551850402934" expanded="true" signature="448:715" ph="{...}" />
+                <marker date="1551850402934" expanded="true" signature="491:571" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -181,12 +181,12 @@
       <workItem from="1549498638847" duration="2076000" />
       <workItem from="1551676159482" duration="2670000" />
       <workItem from="1551836761611" duration="4062000" />
-      <workItem from="1551847498523" duration="2806000" />
+      <workItem from="1551847498523" duration="3501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28952000" />
+    <option name="totallyTimeSpent" value="29647000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -198,10 +198,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.058635395" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12222222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -340,14 +339,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AutoRunCharacterController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="396">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding>
-            <marker date="1551850115765" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551850115765" expanded="true" signature="135:719" ph="{...}" />
-            <marker date="1551850115765" expanded="true" signature="349:423" ph="{...}" />
-            <marker date="1551850115765" expanded="true" signature="450:717" ph="{...}" />
-            <marker date="1551850115765" expanded="true" signature="493:573" ph="{...}" />
+            <marker date="1551850402934" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551850402934" expanded="true" signature="135:717" ph="{...}" />
+            <marker date="1551850402934" expanded="true" signature="347:421" ph="{...}" />
+            <marker date="1551850402934" expanded="true" signature="448:715" ph="{...}" />
+            <marker date="1551850402934" expanded="true" signature="491:571" ph="{...}" />
           </folding>
         </state>
       </provider>
