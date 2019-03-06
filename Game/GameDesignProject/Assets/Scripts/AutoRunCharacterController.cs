@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AutoRunCharacterController : MonoBehaviour
-{
+{  
     public float MoveSpeed = 10;
-    public float Gravity = -9.81f;
+    public float JumpValue = 50;
+    public float Gravity = 9.81f;
     
     private CharacterController CharController;
     private Vector3 POS;
@@ -17,8 +18,13 @@ public class AutoRunCharacterController : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetButton("Jump"))
+        {
+            print("I Work");
+            POS.y = JumpValue;
+        }
         POS = transform.right * MoveSpeed * Time.deltaTime;
-        POS.y = Gravity * Time.deltaTime;
+        POS.y -= Gravity * Time.deltaTime;
 
         CharController.Move(POS);
     }

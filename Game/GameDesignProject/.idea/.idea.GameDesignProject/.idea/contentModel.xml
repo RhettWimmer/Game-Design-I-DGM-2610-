@@ -382,6 +382,7 @@
           <e p="BoulderDESTROY.cs" t="Include" />
           <e p="Counter.cs" t="Include" />
           <e p="Gravity.cs" t="Include" />
+          <e p="Jump.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
           <e p="PlayerCharacterController.cs" t="Include" />
           <e p="PlayerMove.cs" t="Include" />
