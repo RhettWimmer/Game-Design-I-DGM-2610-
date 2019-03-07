@@ -18,11 +18,10 @@ public class AutoRunCharacterController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButton("Jump"))
-        {
-            print("I Work");
-            POS.y = JumpValue;
-        }
+
+        POS = transform.up * JumpValue * Time.deltaTime;
+
+
         POS = transform.right * MoveSpeed * Time.deltaTime;
         POS.y -= Gravity * Time.deltaTime;
 
