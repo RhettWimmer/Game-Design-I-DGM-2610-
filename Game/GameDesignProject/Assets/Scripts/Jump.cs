@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Jump : MonoBehaviour
 {
-
     public float JumpValue;
     public float Gravity = -9.81f;
     private Vector3 POS;
@@ -21,7 +20,6 @@ public class Jump : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            print("Space has been pressed");
             POS.y = JumpValue * Time.deltaTime;
         }
         else
