@@ -297,6 +297,7 @@
           <e p="BoulderAI.cs" t="Include" />
           <e p="BoulderDESTROY.cs" t="Include" />
           <e p="Counter.cs" t="Include" />
+          <e p="EnemyJump.cs" t="Include" />
           <e p="EnemyMovement.cs" t="Include" />
           <e p="Gravity.cs" t="Include" />
           <e p="Jump.cs" t="Include" />

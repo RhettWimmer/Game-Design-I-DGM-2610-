@@ -1,21 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public float Speed;
-    public float JumpSpeed;
-    public float SpeedUp;
+    public Transform Destination;
+    private NavMeshAgent agent;
+
+    private void Start()
+    {
+        agent = GetComponent<NavMeshAgent>();
+    }
 
     private void Update()
     {
-        var forward = Time.deltaTime * Speed;
-        var jump = Input.GetAxis("Jump") * Time.deltaTime * JumpSpeed;
-        
-        transform.Translate(forward, 0 , 0);
-        transform.Translate(0, jump, 0);
-
-        Speed += Time.deltaTime * SpeedUp;
+        agent.destination = Destination.position;
     }
+    
 }
