@@ -1,0 +1,10 @@
+Weapon
+
+	Onclick I want the bullet to go to the location of the click
+
+
+Destructible Enviro Objects
+
+ 		(Done) Stelags: Will fall when shot
+	TNT: Will explode when hit
+		(Done) Cactus: Will stop player when hit, will destroy when enemy hits
