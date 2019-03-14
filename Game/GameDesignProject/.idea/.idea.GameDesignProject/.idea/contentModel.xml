@@ -316,7 +316,9 @@
             <e p="FloatData.cs" t="Include" />
             <e p="MoveBase.cs" t="Include" />
           </e>
+          <e p="Shoot.cs" t="Include" />
           <e p="Test.cs" t="Include" />
+          <e p="TestSnap.cs" t="Include" />
         </e>
         <e p="SudoCode" t="Include">
           <e p="ProcedualGeneratedMapIdea.txt" t="Include" />
