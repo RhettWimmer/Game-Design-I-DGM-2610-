@@ -22,6 +22,11 @@ public class Shoot : MonoBehaviour
     private void Update()
     {
         home = GameObject.Find("Player").transform.position;
+        if (CanDrag == false)
+        {
+            newPOS = home;
+            transform.position = newPOS;
+        }
     }
 
     private IEnumerator OnMouseDown()
@@ -40,8 +45,8 @@ public class Shoot : MonoBehaviour
     private void OnMouseUp()
     {
         CanDrag = false;
-        newPOS = home;
-        transform.position = newPOS;
+/*        newPOS = home;
+        transform.position = newPOS;*/
 
     }
 /*    private void OnMouseDown()

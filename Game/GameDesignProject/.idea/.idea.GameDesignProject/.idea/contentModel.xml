@@ -301,9 +301,11 @@
           <e p="EnemyJump.cs" t="Include" />
           <e p="EnemyLoader.cs" t="Include" />
           <e p="EnemyMovement.cs" t="Include" />
+          <e p="EventEnable.cs" t="Include" />
           <e p="EventScript.cs" t="Include" />
           <e p="Gravity.cs" t="Include" />
           <e p="Jump.cs" t="Include" />
+          <e p="LassoTest.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
           <e p="OnClickFall.cs" t="Include" />
           <e p="PlayerCharacterController.cs" t="Include" />
