@@ -8,7 +8,7 @@ public class EventScript : MonoBehaviour
 {
 	public UnityEvent Event;
 
-	private void OnMouseDown()
+	private void OnCollisionEnter()
 	{
 		Event.Invoke();
 	}
