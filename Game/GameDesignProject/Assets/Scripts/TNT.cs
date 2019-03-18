@@ -5,15 +5,20 @@ using UnityEngine;
 public class TNT : MonoBehaviour
 {
     public float ForceValue;
-    public Rigidbody TNTBlock;
+    public int DestTime = 5;
 
-    private void Start()
+    private void OnCollisionEnter(Collision other)
     {
-        TNTBlock = GetComponent<Rigidbody>();
+        transform.Rotate(Vector3.up, ForceValue * Time.deltaTime);
+        transform.Rotate(Vector3.right, ForceValue * Time.deltaTime);
+        transform.Rotate(Vector3.left, ForceValue * Time.deltaTime);
+
+        StartCoroutine(DestroyTNT());
     }
 
-    private void OnTriggerEnter(Collider other)
+    IEnumerator DestroyTNT()
     {
-        TNTBlock.AddForce(transform.up * ForceValue);
+        yield return new WaitForSecondsRealtime(DestTime);
+        Destroy(gameObject);
     }
 }
