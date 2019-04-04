@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4014431983637125806}
   - component: {fileID: 6765573446924696283}
   - component: {fileID: 6014155077440163783}
-  - component: {fileID: 5359162247501954585}
+  - component: {fileID: 9044788919301269769}
   m_Layer: 0
   m_Name: SandstonePlat Variant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4014431983637125806
 Transform:
@@ -78,8 +78,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &5359162247501954585
-BoxCollider:
+--- !u!64 &9044788919301269769
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -88,6 +88,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.010000003, y: 0.053520918, z: 0.011752111}
-  m_Center: {x: 0, y: -0.02176046, z: 0}
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 6df887a8f415051478e5b8f30a103485, type: 3}

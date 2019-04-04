@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 5095041064717463514}
   - component: {fileID: 732485430009315862}
   - component: {fileID: 5568240790912124658}
-  - component: {fileID: 479250826680339622}
+  - component: {fileID: 736449457312363739}
   m_Layer: 0
   m_Name: Sandtopplat (2) Variant (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!4 &5095041064717463514
 Transform:
@@ -78,8 +78,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &479250826680339622
-BoxCollider:
+--- !u!64 &736449457312363739
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -88,6 +88,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.013804318, y: 0.009999999, z: 0.011159728}
-  m_Center: {x: 6.617445e-24, y: 0, z: -2.3283067e-10}
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 1dfe765dd686b16449c49003b9294aad, type: 3}
