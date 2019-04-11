@@ -7,22 +7,28 @@ public class TrainBevahiour : MonoBehaviour
 
     public int TrainSpeed;
     public bool Driving;
+    public bool PlayerDetect;
 
     private void Start()
     {
         Driving = false;
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         Driving = true;
+        if (other.gameObject.name == "Player")
+        {
+            PlayerDetect = true;
+        }
+        
     }
 
-    private void Update()
+    public void Update()
     {
         var TrainMove = Time.deltaTime * TrainSpeed;
        
-        if (Driving == true)
+        if (Driving == true && PlayerDetect == true)
             transform.Translate(0, 0, TrainMove);
     }
 }
