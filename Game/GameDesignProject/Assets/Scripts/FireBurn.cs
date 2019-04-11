@@ -10,11 +10,11 @@ public class FireBurn : MonoBehaviour
     private void Start()
     {
         BurnFX.Pause(true);
-        StartCoroutine(BurnTime());
     }
 
     public void OnTriggerEnter(Collider other)
     {
+        StartCoroutine(BurnTime());
         if (other.gameObject.name == "FireTrigger")
         {
             BurnFX.Play(true);
@@ -26,6 +26,5 @@ public class FireBurn : MonoBehaviour
     {
             yield return new WaitForSecondsRealtime(BurnSecs);
             BurnFX.Stop(true);
-            print("Burn stopped");
     }
 }
