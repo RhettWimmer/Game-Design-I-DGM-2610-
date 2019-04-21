@@ -136,7 +136,6 @@
             </e>
           </e>
         </e>
-        <e p="MoveCharacter.cs" t="Include" />
         <e p="ProCore" t="Include">
           <e p="ProBuilder" t="Include">
             <e p="About" t="Include">
@@ -311,6 +310,10 @@
           <e p="LassoTest.cs" t="Include" />
           <e p="LogScript.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
+          <e p="New Scripts" t="Include">
+            <e p="AnimatorMachine.cs" t="Include" />
+            <e p="GarbageCollector.cs" t="Include" />
+          </e>
           <e p="OnClickFall.cs" t="Include" />
           <e p="PlatformEvent.cs" t="Include" />
           <e p="PlayerCharacterController.cs" t="Include" />
@@ -321,6 +324,7 @@
             <e p="CharacterMove.cs" t="Include" />
           </e>
           <e p="ScriptableObjects" t="Include">
+            <e p="BoolData.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="MoveBase.cs" t="Include" />
           </e>
