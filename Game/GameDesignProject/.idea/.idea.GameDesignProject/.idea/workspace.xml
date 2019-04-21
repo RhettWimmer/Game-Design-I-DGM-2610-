@@ -39,12 +39,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="8962" />
+          <entry key="cs" value="9121" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="8962" />
+          <entry key="C#" value="9121" />
         </counts>
       </usages-collector>
     </session>
@@ -81,7 +81,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4817975">
+    <splitter split-orientation="horizontal" split-proportion="0.7948718">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -115,20 +115,19 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jump.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="594">
-                  <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+                <state relative-caret-position="512">
+                  <caret line="34" selection-start-line="34" selection-end-line="34" />
                   <folding>
-                    <marker date="1555821648994" expanded="false" signature="6:78" ph="..." />
-                    <marker date="1555821648994" expanded="true" signature="113:1363" ph="{...}" />
-                    <marker date="1555821648994" expanded="true" signature="293:361" ph="{...}" />
-                    <marker date="1555821648994" expanded="true" signature="388:1361" ph="{...}" />
-                    <marker date="1555821648994" expanded="true" signature="498:550" ph="{...}" />
-                    <marker date="1555821648994" expanded="true" signature="588:631" ph="{...}" />
-                    <marker date="1555821648994" expanded="true" signature="703:772" ph="{...}" />
-                    <marker date="1555821648994" expanded="true" signature="814:884" ph="{...}" />
-                    <marker date="1555821648994" expanded="true" signature="928:996" ph="{...}" />
-                    <marker date="1555821648994" expanded="true" signature="1045:1114" ph="{...}" />
-                    <marker date="1555821648994" expanded="true" signature="1124:1355" ph="/* if (Input.GetKeyDown(KeyCode.Space)) ... */" />
+                    <marker date="1555829082611" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1555829082611" expanded="true" signature="113:1251" ph="{...}" />
+                    <marker date="1555829082611" expanded="true" signature="293:361" ph="{...}" />
+                    <marker date="1555829082611" expanded="true" signature="388:1249" ph="{...}" />
+                    <marker date="1555829082611" expanded="true" signature="533:584" ph="{...}" />
+                    <marker date="1555829082611" expanded="true" signature="622:665" ph="{...}" />
+                    <marker date="1555829082611" expanded="true" signature="703:772" ph="{...}" />
+                    <marker date="1555829082611" expanded="true" signature="816:884" ph="{...}" />
+                    <marker date="1555829082611" expanded="true" signature="933:1002" ph="{...}" />
+                    <marker date="1555829082611" expanded="true" signature="1012:1243" ph="/* if (Input.GetKeyDown(KeyCode.Space)) ... */" />
                   </folding>
                 </state>
               </provider>
@@ -292,10 +291,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="522" />
-    <option name="y" value="-12" />
+    <option name="x" value="960" />
     <option name="width" value="960" />
-    <option name="height" value="1016" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -374,12 +372,12 @@
       <workItem from="1554837425548" duration="3311000" />
       <workItem from="1554927761183" duration="11787000" />
       <workItem from="1555795564057" duration="8220000" />
-      <workItem from="1555817371626" duration="2777000" />
+      <workItem from="1555817371626" duration="7711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93391000" />
+    <option name="totallyTimeSpent" value="98325000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -626,20 +624,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jump.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+        <state relative-caret-position="512">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <marker date="1555821648994" expanded="false" signature="6:78" ph="..." />
-            <marker date="1555821648994" expanded="true" signature="113:1363" ph="{...}" />
-            <marker date="1555821648994" expanded="true" signature="293:361" ph="{...}" />
-            <marker date="1555821648994" expanded="true" signature="388:1361" ph="{...}" />
-            <marker date="1555821648994" expanded="true" signature="498:550" ph="{...}" />
-            <marker date="1555821648994" expanded="true" signature="588:631" ph="{...}" />
-            <marker date="1555821648994" expanded="true" signature="703:772" ph="{...}" />
-            <marker date="1555821648994" expanded="true" signature="814:884" ph="{...}" />
-            <marker date="1555821648994" expanded="true" signature="928:996" ph="{...}" />
-            <marker date="1555821648994" expanded="true" signature="1045:1114" ph="{...}" />
-            <marker date="1555821648994" expanded="true" signature="1124:1355" ph="/* if (Input.GetKeyDown(KeyCode.Space)) ... */" />
+            <marker date="1555829082611" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555829082611" expanded="true" signature="113:1251" ph="{...}" />
+            <marker date="1555829082611" expanded="true" signature="293:361" ph="{...}" />
+            <marker date="1555829082611" expanded="true" signature="388:1249" ph="{...}" />
+            <marker date="1555829082611" expanded="true" signature="533:584" ph="{...}" />
+            <marker date="1555829082611" expanded="true" signature="622:665" ph="{...}" />
+            <marker date="1555829082611" expanded="true" signature="703:772" ph="{...}" />
+            <marker date="1555829082611" expanded="true" signature="816:884" ph="{...}" />
+            <marker date="1555829082611" expanded="true" signature="933:1002" ph="{...}" />
+            <marker date="1555829082611" expanded="true" signature="1012:1243" ph="/* if (Input.GetKeyDown(KeyCode.Space)) ... */" />
           </folding>
         </state>
       </provider>

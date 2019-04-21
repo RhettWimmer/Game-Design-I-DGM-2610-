@@ -17,30 +17,28 @@ public class Jump : MonoBehaviour
     }
 
     private void Update()
-    {
+    {       
+        JumpCont.Move(POS);
         POS.y -= Gravity * Time.deltaTime;
 
         if (JumpCont.isGrounded && Input.GetButton("Jump"))
         {
             POS.y = JumpValue;
-
         }
         else if (JumpCont.isGrounded)
         {
             POS.y = 0;
         }
 
-        JumpCont.Move(POS);
-
-        if (JumpCont.isGrounded == false)
+        if (Input.GetButton("Jump") && JumpCont.isGrounded == false)
         {
             animator.SetBool("IsJumping", true);
         }
-
-        if (JumpCont.isGrounded == true)
+        else if (JumpCont.isGrounded)
         {
             animator.SetBool("IsJumping", false);
         }
+
 
 
         if (Input.GetButtonDown("Fire1"))
