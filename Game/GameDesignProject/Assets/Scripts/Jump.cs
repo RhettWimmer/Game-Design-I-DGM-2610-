@@ -7,32 +7,25 @@ public class Jump : MonoBehaviour
     public float JumpValue;
     public float Gravity;
     private Vector3 POS;
-
-/*    public BoolData RunAnimation;
-    public BoolData JumpAnimation;*/
-
-    public GameObject RunAnim;
-    public GameObject JumpAnim;
-
+    public Animator animator;
 
     private CharacterController JumpCont;
 
     private void Start()
     {
-        JumpCont= GetComponent<CharacterController>();
+        JumpCont = GetComponent<CharacterController>();
     }
-    
+
     private void Update()
     {
-            RunAnim.SetActive(false);
-            JumpAnim.SetActive(true);
         POS.y -= Gravity * Time.deltaTime;
-               
+
         if (JumpCont.isGrounded && Input.GetButton("Jump"))
         {
             POS.y = JumpValue;
 
-        } else if (JumpCont.isGrounded)
+        }
+        else if (JumpCont.isGrounded)
         {
             POS.y = 0;
         }
@@ -41,10 +34,25 @@ public class Jump : MonoBehaviour
 
         if (JumpCont.isGrounded == false)
         {
-            RunAnim.SetActive(true);
-            JumpAnim.SetActive(false); 
+            animator.SetBool("IsJumping", true);
+        }
+
+        if (JumpCont.isGrounded == true)
+        {
+            animator.SetBool("IsJumping", false);
+        }
+
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            animator.SetBool("UseLasso", true);
         }
         
+        if (Input.GetButtonUp("Fire1"))
+        {
+            animator.SetBool("UseLasso", false);
+        }
+
         /*
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -54,7 +62,7 @@ public class Jump : MonoBehaviour
         {
             POS.y -= Gravity * Time.deltaTime;
         }
-
+    
         JumpCont.Move(POS);*/
     }
 }
