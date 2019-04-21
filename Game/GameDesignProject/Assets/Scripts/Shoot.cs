@@ -21,7 +21,7 @@ public class Shoot : MonoBehaviour
 
     private void Update()
     {
-        home = GameObject.Find("Player").transform.position;
+        home = GameObject.Find("LassoWeapon").transform.position;
         if (CanDrag == false)
         {
             newPOS = home;
