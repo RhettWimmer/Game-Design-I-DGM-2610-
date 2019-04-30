@@ -34,10 +34,12 @@ public class Jump : MonoBehaviour
         if (Input.GetButton("Jump") && JumpCont.isGrounded == false)
         {
             animator.SetBool("IsJumping", true);
+            Dust.SetActive(false);
         }
         else if (JumpCont.isGrounded)
         {
             animator.SetBool("IsJumping", false);
+            Dust.SetActive(true);
         }
 
         if (Input.GetButtonDown("Fire1"))
@@ -61,11 +63,5 @@ public class Jump : MonoBehaviour
         }
     
         JumpCont.Move(POS);*/
-
-        while (JumpCont.isGrounded)
-        {
-            Dust.SetActive(true);
-        }
-        
     }
 }

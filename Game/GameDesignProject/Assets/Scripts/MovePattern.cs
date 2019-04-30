@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class MovePattern : MonoBehaviour{
+public class MovePattern :  ScriptableObject{
     
 	public float jumpSpeed;
 	public float gravity;
