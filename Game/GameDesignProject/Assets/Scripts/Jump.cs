@@ -8,6 +8,7 @@ public class Jump : MonoBehaviour
     public float Gravity;
     private Vector3 POS;
     public Animator animator;
+    public ParticleSystem Dust;
 
     private CharacterController JumpCont;
 
@@ -62,5 +63,6 @@ public class Jump : MonoBehaviour
         }
     
         JumpCont.Move(POS);*/
+        
     }
 }
