@@ -4765,6 +4765,7 @@ MonoBehaviour:
   JumpValue: 1
   Gravity: 2
   animator: {fileID: 1621557575}
+  Dust: {fileID: 1659643190}
 --- !u!114 &195020994
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ public class Jump : MonoBehaviour
     public float Gravity;
     private Vector3 POS;
     public Animator animator;
-    public ParticleSystem Dust;
+    public GameObject Dust;
 
     private CharacterController JumpCont;
 
@@ -40,8 +40,6 @@ public class Jump : MonoBehaviour
             animator.SetBool("IsJumping", false);
         }
 
-
-
         if (Input.GetButtonDown("Fire1"))
         {
             animator.SetBool("UseLasso", true);
@@ -63,6 +61,11 @@ public class Jump : MonoBehaviour
         }
     
         JumpCont.Move(POS);*/
+
+        while (JumpCont.isGrounded)
+        {
+            Dust.SetActive(true);
+        }
         
     }
 }
