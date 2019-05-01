@@ -12,7 +12,7 @@
     <session id="1849622463">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
@@ -29,22 +29,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="95" />
+          <entry key="cs" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="95" />
+          <entry key="C#" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="9792" />
+          <entry key="cs" value="10113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="9792" />
+          <entry key="C#" value="10113" />
         </counts>
       </usages-collector>
     </session>
@@ -82,151 +82,102 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventEnable.cs">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shoot.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-              <folding>
-                <marker date="1556675562309" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556675562309" expanded="true" signature="114:1265" ph="{...}" />
-                <marker date="1556675562309" expanded="true" signature="277:325" ph="{...}" />
-                <marker date="1556675562309" expanded="true" signature="352:546" ph="{...}" />
-                <marker date="1556675562309" expanded="true" signature="452:540" ph="{...}" />
-                <marker date="1556675562309" expanded="true" signature="585:970" ph="{...}" />
-                <marker date="1556675562309" expanded="true" signature="773:964" ph="{...}" />
-                <marker date="1556675562309" expanded="true" signature="1000:1102" ph="{...}" />
-                <marker date="1556675562309" expanded="true" signature="1032:1095" ph="/* newPOS = home; ... */" />
-                <marker date="1556675562309" expanded="true" signature="1103:1263" ph="/* private void OnMouseDown() ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Lasso.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-              <folding>
-                <marker date="1556675732516" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556675732516" expanded="true" signature="114:967" ph="{...}" />
-                <marker date="1556675732516" expanded="true" signature="200:275" ph="/* private void Start() ... */" />
-                <marker date="1556675732516" expanded="true" signature="302:378" ph="{...}" />
-                <marker date="1556675732516" expanded="true" signature="411:581" ph="{...}" />
-                <marker date="1556675732516" expanded="true" signature="625:781" ph="{...}" />
-                <marker date="1556675732516" expanded="true" signature="813:888" ph="{...}" />
-                <marker date="1556675732516" expanded="true" signature="918:965" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BirdScript.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <marker date="1556679008955" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556679008955" expanded="true" signature="119:770" ph="{...}" />
-                <marker date="1556679008955" expanded="true" signature="232:320" ph="{...}" />
-                <marker date="1556679008955" expanded="true" signature="358:450" ph="{...}" />
-                <marker date="1556679008955" expanded="true" signature="486:572" ph="{...}" />
-                <marker date="1556679008955" expanded="true" signature="599:768" ph="{...}" />
-                <marker date="1556679008955" expanded="true" signature="693:762" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/New Scripts/PlaceConstrain.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <marker date="1556682920412" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556682920412" expanded="true" signature="123:266" ph="{...}" />
-                <marker date="1556682920412" expanded="true" signature="147:264" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AutoRunCharacterController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1552074189762" expanded="false" signature="6:78" ph="..." />
-                <marker date="1552074189762" expanded="true" signature="135:768" ph="{...}" />
-                <marker date="1552074189762" expanded="true" signature="173:243" ph="/* public float JumpValue = 50; ... */" />
-                <marker date="1552074189762" expanded="true" signature="351:425" ph="{...}" />
-                <marker date="1552074189762" expanded="true" signature="452:766" ph="{...}" />
-                <marker date="1552074189762" expanded="true" signature="520:717" ph="/* if (Input.GetKeyDown(KeyCode.Space)) ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PartSysLook.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1556601413389" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556601413389" expanded="true" signature="120:366" ph="{...}" />
-                <marker date="1556601413389" expanded="true" signature="196:264" ph="{...}" />
-                <marker date="1556601413389" expanded="true" signature="300:364" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jump.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <marker date="1556599206065" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556599206065" expanded="true" signature="113:1487" ph="{...}" />
-                <marker date="1556599206065" expanded="true" signature="321:389" ph="{...}" />
-                <marker date="1556599206065" expanded="true" signature="416:1485" ph="{...}" />
-                <marker date="1556599206065" expanded="true" signature="561:612" ph="{...}" />
-                <marker date="1556599206065" expanded="true" signature="650:693" ph="{...}" />
-                <marker date="1556599206065" expanded="true" signature="763:867" ph="{...}" />
-                <marker date="1556599206065" expanded="true" signature="905:1009" ph="{...}" />
-                <marker date="1556599206065" expanded="true" signature="1052:1120" ph="{...}" />
-                <marker date="1556599206065" expanded="true" signature="1169:1238" ph="{...}" />
-                <marker date="1556599206065" expanded="true" signature="1248:1479" ph="/* if (Input.GetKeyDown(KeyCode.Space)) ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bobbing.cs">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovePattern.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.28563285">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/BirdScript.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="192">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                  <folding>
+                    <marker date="1556679008955" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1556679008955" expanded="true" signature="119:770" ph="{...}" />
+                    <marker date="1556679008955" expanded="true" signature="232:320" ph="{...}" />
+                    <marker date="1556679008955" expanded="true" signature="358:450" ph="{...}" />
+                    <marker date="1556679008955" expanded="true" signature="486:572" ph="{...}" />
+                    <marker date="1556679008955" expanded="true" signature="599:768" ph="{...}" />
+                    <marker date="1556679008955" expanded="true" signature="693:762" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollisionPlaySound.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="288">
+                  <caret line="20" selection-start-line="20" selection-end-line="20" />
+                  <folding>
+                    <marker date="1556695694141" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1556695694141" expanded="true" signature="127:367" ph="{...}" />
+                    <marker date="1556695694141" expanded="true" signature="188:274" ph="{...}" />
+                    <marker date="1556695694141" expanded="true" signature="323:360" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/New Scripts/PlaceConstrain.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="128">
+                  <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+                  <folding>
+                    <marker date="1556696187077" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1556696187077" expanded="true" signature="123:271" ph="{...}" />
+                    <marker date="1556696187077" expanded="true" signature="147:269" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jump.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="322">
+                  <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+                  <folding>
+                    <marker date="1556697349296" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1556697349296" expanded="true" signature="113:1529" ph="{...}" />
+                    <marker date="1556697349296" expanded="true" signature="352:420" ph="{...}" />
+                    <marker date="1556697349296" expanded="true" signature="447:1527" ph="{...}" />
+                    <marker date="1556697349296" expanded="true" signature="592:643" ph="{...}" />
+                    <marker date="1556697349296" expanded="true" signature="681:724" ph="{...}" />
+                    <marker date="1556697349296" expanded="true" signature="794:899" ph="{...}" />
+                    <marker date="1556697349296" expanded="true" signature="937:1051" ph="{...}" />
+                    <marker date="1556697349296" expanded="true" signature="1094:1162" ph="{...}" />
+                    <marker date="1556697349296" expanded="true" signature="1211:1280" ph="{...}" />
+                    <marker date="1556697349296" expanded="true" signature="1290:1521" ph="/* if (Input.GetKeyDown(KeyCode.Space)) ... */" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/FireBurn.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="512">
+                  <caret line="34" selection-start-line="34" selection-end-line="34" />
+                  <folding>
+                    <marker date="1556697412008" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1556697412008" expanded="true" signature="117:734" ph="{...}" />
+                    <marker date="1556697412008" expanded="true" signature="238:344" ph="{...}" />
+                    <marker date="1556697412008" expanded="true" signature="392:598" ph="{...}" />
+                    <marker date="1556697412008" expanded="true" signature="486:592" ph="{...}" />
+                    <marker date="1556697412008" expanded="true" signature="626:732" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -245,6 +196,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lasso.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BirdScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PartSysLook.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionPlaySound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/New Scripts/PlaceConstrain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyDestroyEnviro.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Counter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -256,6 +208,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventEnable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FireBurn.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -292,18 +245,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TrainBevahiour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FireBurn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/New Scripts/GarbageCollector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/BoolData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/New Scripts/AnimatorMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PartSysLook.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovePattern.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Jump.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LassoBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Lasso.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BirdScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CollisionPlaySound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/New Scripts/PlaceConstrain.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jump.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FireBurn.cs" />
       </list>
     </option>
   </component>
@@ -313,7 +267,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
@@ -398,12 +352,12 @@
       <workItem from="1555817371626" duration="9283000" />
       <workItem from="1556594267636" duration="4333000" />
       <workItem from="1556633558843" duration="7169000" />
-      <workItem from="1556674689738" duration="3652000" />
+      <workItem from="1556674689738" duration="6613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115051000" />
+    <option name="totallyTimeSpent" value="118012000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,10 +369,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13555555" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.06503198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -529,7 +482,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/New Scripts/GarbageCollector.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/BoolData.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/New Scripts/AnimatorMachine.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FireBurn.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LassoBehavior.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bobbing.cs">
       <provider selected="true" editor-type-id="text-editor" />
@@ -592,18 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/New Scripts/PlaceConstrain.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1556682920412" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556682920412" expanded="true" signature="123:266" ph="{...}" />
-            <marker date="1556682920412" expanded="true" signature="147:264" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AutoRunCharacterController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -614,26 +554,6 @@
             <marker date="1552074189762" expanded="true" signature="351:425" ph="{...}" />
             <marker date="1552074189762" expanded="true" signature="452:766" ph="{...}" />
             <marker date="1552074189762" expanded="true" signature="520:717" ph="/* if (Input.GetKeyDown(KeyCode.Space)) ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jump.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <marker date="1556599206065" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556599206065" expanded="true" signature="113:1487" ph="{...}" />
-            <marker date="1556599206065" expanded="true" signature="321:389" ph="{...}" />
-            <marker date="1556599206065" expanded="true" signature="416:1485" ph="{...}" />
-            <marker date="1556599206065" expanded="true" signature="561:612" ph="{...}" />
-            <marker date="1556599206065" expanded="true" signature="650:693" ph="{...}" />
-            <marker date="1556599206065" expanded="true" signature="763:867" ph="{...}" />
-            <marker date="1556599206065" expanded="true" signature="905:1009" ph="{...}" />
-            <marker date="1556599206065" expanded="true" signature="1052:1120" ph="{...}" />
-            <marker date="1556599206065" expanded="true" signature="1169:1238" ph="{...}" />
-            <marker date="1556599206065" expanded="true" signature="1248:1479" ph="/* if (Input.GetKeyDown(KeyCode.Space)) ... */" />
           </folding>
         </state>
       </provider>
@@ -650,6 +570,66 @@
             <marker date="1556679008955" expanded="true" signature="486:572" ph="{...}" />
             <marker date="1556679008955" expanded="true" signature="599:768" ph="{...}" />
             <marker date="1556679008955" expanded="true" signature="693:762" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollisionPlaySound.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1556695694141" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556695694141" expanded="true" signature="127:367" ph="{...}" />
+            <marker date="1556695694141" expanded="true" signature="188:274" ph="{...}" />
+            <marker date="1556695694141" expanded="true" signature="323:360" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/New Scripts/PlaceConstrain.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1556696187077" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556696187077" expanded="true" signature="123:271" ph="{...}" />
+            <marker date="1556696187077" expanded="true" signature="147:269" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jump.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <marker date="1556697349296" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556697349296" expanded="true" signature="113:1529" ph="{...}" />
+            <marker date="1556697349296" expanded="true" signature="352:420" ph="{...}" />
+            <marker date="1556697349296" expanded="true" signature="447:1527" ph="{...}" />
+            <marker date="1556697349296" expanded="true" signature="592:643" ph="{...}" />
+            <marker date="1556697349296" expanded="true" signature="681:724" ph="{...}" />
+            <marker date="1556697349296" expanded="true" signature="794:899" ph="{...}" />
+            <marker date="1556697349296" expanded="true" signature="937:1051" ph="{...}" />
+            <marker date="1556697349296" expanded="true" signature="1094:1162" ph="{...}" />
+            <marker date="1556697349296" expanded="true" signature="1211:1280" ph="{...}" />
+            <marker date="1556697349296" expanded="true" signature="1290:1521" ph="/* if (Input.GetKeyDown(KeyCode.Space)) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FireBurn.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <marker date="1556697412008" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556697412008" expanded="true" signature="117:734" ph="{...}" />
+            <marker date="1556697412008" expanded="true" signature="238:344" ph="{...}" />
+            <marker date="1556697412008" expanded="true" signature="392:598" ph="{...}" />
+            <marker date="1556697412008" expanded="true" signature="486:592" ph="{...}" />
+            <marker date="1556697412008" expanded="true" signature="626:732" ph="{...}" />
           </folding>
         </state>
       </provider>

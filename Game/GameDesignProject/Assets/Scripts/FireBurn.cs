@@ -6,10 +6,13 @@ public class FireBurn : MonoBehaviour
 {
     public ParticleSystem BurnFX;
     public int BurnSecs = 10;
+    public AudioSource Ouch;
 
     private void Start()
     {
         BurnFX.Pause(true);
+        Ouch = GetComponent<AudioSource>();
+        Ouch.Pause();
     }
 
     public void OnTriggerEnter(Collider other)
@@ -18,6 +21,7 @@ public class FireBurn : MonoBehaviour
         if (other.gameObject.name == "FireTrigger")
         {
             BurnFX.Play(true);
+            Ouch.Play();
             print("Burning");
         }
     }

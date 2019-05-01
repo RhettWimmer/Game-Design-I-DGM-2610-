@@ -9,6 +9,7 @@ public class Jump : MonoBehaviour
     private Vector3 POS;
     public Animator animator;
     public GameObject Dust;
+    public AudioSource Gallop;
 
     private CharacterController JumpCont;
 
@@ -35,11 +36,12 @@ public class Jump : MonoBehaviour
         {
             animator.SetBool("IsJumping", true);
             Dust.SetActive(false);
+
         }
         else if (JumpCont.isGrounded)
         {
             animator.SetBool("IsJumping", false);
-            Dust.SetActive(true);
+            Dust.SetActive(true);          
         }
 
         if (Input.GetButtonDown("Fire1"))

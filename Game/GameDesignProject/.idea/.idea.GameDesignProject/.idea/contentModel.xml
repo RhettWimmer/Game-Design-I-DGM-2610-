@@ -142,6 +142,7 @@
           <e p="Bobbing.cs" t="Include" />
           <e p="BoulderAI.cs" t="Include" />
           <e p="BoulderDESTROY.cs" t="Include" />
+          <e p="CollisionPlaySound.cs" t="Include" />
           <e p="Counter.cs" t="Include" />
           <e p="DeleteOnCollision.cs" t="Include" />
           <e p="EnemyDestroyEnviro.cs" t="Include" />
