@@ -15,7 +15,7 @@ public class Lasso : MonoBehaviour
 
     private void Update()
     {
-        Home = GameObject.Find("dong").transform.position;
+        Home = GameObject.Find("LassoHome").transform.position;
     }
 
     private void OnMouseDown()

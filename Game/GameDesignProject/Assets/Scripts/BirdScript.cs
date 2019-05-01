@@ -7,16 +7,25 @@ public class BirdScript : MonoBehaviour
 
     public int BirdSpeed;
     public bool Flying;
+    public AudioSource BirdNoise;
+
+    private void Start()
+    {
+        BirdNoise = GetComponent<AudioSource>();
+        BirdNoise.Pause();
+    }
 
     private void OnBecameInvisible()
     {
         Flying = false;
+        BirdNoise.Pause();
         print("Not Flying");
     }
 
     private void OnBecameVisible()
     {
         Flying = true;
+        BirdNoise.Play();
         print("Flying");
     }
 
