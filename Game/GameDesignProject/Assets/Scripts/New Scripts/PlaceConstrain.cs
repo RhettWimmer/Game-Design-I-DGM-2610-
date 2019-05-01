@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class PlaceConstrain : MonoBehaviour
 {
-        private Vector3 POS;
-
-
-        private void Update()
+        void Update()
         {
-                POS.z = 0;
+                transform.position = new Vector3(transform.position.x, transform.position.y, 0);
         }
 }

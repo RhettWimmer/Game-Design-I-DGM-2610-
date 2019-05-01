@@ -4665,6 +4665,7 @@ GameObject:
   - component: {fileID: 195020993}
   - component: {fileID: 195020991}
   - component: {fileID: 195020995}
+  - component: {fileID: 195020996}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -4747,6 +4748,18 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195020990}
   m_Enabled: 1
+--- !u!114 &195020996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195020990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0f442e72dd23c49b612ebbe08cca0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &202999019 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2291564753222688779, guid: 83b91b11bacb03a4b98ca32d24b28bed,
@@ -50966,7 +50979,8 @@ PrefabInstance:
       propertyPath: BirdNoise
       value: 
       objectReference: {fileID: 761269429}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2036109635, guid: 445ada5e7cce2394484fd615fb4abd28, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 445ada5e7cce2394484fd615fb4abd28, type: 3}
 --- !u!1001 &1375261428
 PrefabInstance:
