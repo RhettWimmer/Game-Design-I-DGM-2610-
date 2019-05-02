@@ -172,6 +172,7 @@
           <e p="PlayerCharacterController.cs" t="Include" />
           <e p="PlayerMove.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="RestartGameButton.cs" t="Include" />
           <e p="RidgidBodyEvent.cs" t="Include" />
           <e p="RunTest" t="Include">
             <e p="CharacterMove.cs" t="Include" />
