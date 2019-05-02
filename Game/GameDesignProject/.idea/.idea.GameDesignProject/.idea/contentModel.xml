@@ -144,6 +144,7 @@
           <e p="BoulderDESTROY.cs" t="Include" />
           <e p="CollisionPlaySound.cs" t="Include" />
           <e p="Counter.cs" t="Include" />
+          <e p="CrackAudio.cs" t="Include" />
           <e p="DeleteOnCollision.cs" t="Include" />
           <e p="EnemyDestroyEnviro.cs" t="Include" />
           <e p="EnemyJump.cs" t="Include" />
@@ -155,6 +156,7 @@
           <e p="Gravity.cs" t="Include" />
           <e p="Jump.cs" t="Include" />
           <e p="Lasso.cs" t="Include" />
+          <e p="LassoAudio.cs" t="Include" />
           <e p="LassoBehavior.cs" t="Include" />
           <e p="LassoTest.cs" t="Include" />
           <e p="LogScript.cs" t="Include" />
